@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "isolated": true,
+  "checks": [
+    "Public Login opens the merged local sign-in",
+    "Admin and client accounts authenticate",
+    "Admin client management renders",
+    "Client cannot access administrator routes",
+    "Logout and guest protection work",
+    "Desktop and mobile login/dashboard render"
+  ],
+  "javascriptErrors": [],
+  "failedAssets": []
+}

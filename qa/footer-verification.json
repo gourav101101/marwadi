@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "localLinks": [
+    "/",
+    "/who-we-are",
+    "/our-history",
+    "/leadership",
+    "/contact-us",
+    "/products/derivatives",
+    "/products/commodities",
+    "/products/third-party-products",
+    "/products/ipo",
+    "/products/portfolio-management-services",
+    "/services/research-and-advisory",
+    "/services/margin-trading",
+    "/services/offline-trading",
+    "/services/call-on-trade",
+    "/services/smart-portfolio-management",
+    "/faq",
+    "/investor-safety",
+    "/privacy-policy",
+    "/disclaimer",
+    "/sitemap",
+    "/contact-us",
+    "/login",
+    "/open-account"
+  ],
+  "widths": [
+    1440,
+    768,
+    390
+  ],
+  "javascriptErrors": []
+}

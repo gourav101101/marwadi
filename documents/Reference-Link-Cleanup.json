@@ -1,0 +1,106 @@
+[
+  {
+    "file": "contact-us.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup",
+      "Removed copied company document: /reference-assets/storage/contactus/lArzKXqdaACmxrAeStqSdruVqoPKkaAYPvRWdhOu.pdf",
+      "Removed copied company document: /reference-assets/assets/user/document/KMP%20details%20required.pdf"
+    ]
+  },
+  {
+    "file": "home.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup",
+      "Removed reference trading portal or copied warning popup",
+      "Removed reference trading portal or copied warning popup",
+      "Replaced imported announcements with local account, contact, safety and FAQ links",
+      "Removed reference navigation: https://www.marwadionline.com/load-more-service?page=2",
+      "Removed reference navigation: https://www.marwadionline.com/load-more-service?page=2",
+      "Removed reference navigation: https://www.marwadionline.com/load-more-product?page=2"
+    ]
+  },
+  {
+    "file": "leadership.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "our-history.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "products--commodity-derivative.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "products--currency-derivative.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "products--equity-derivative.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "products--initial-public-offering-ipo.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "products--third-party-product.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "renaissance.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "service--call-and-trade.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "service--margin-trading-smtf.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "service--offline-trading.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "service--research-and-advisory.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "service--smart-portfolio-analyse.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  },
+  {
+    "file": "who-we-are.html",
+    "changes": [
+      "Removed reference trading portal or copied warning popup"
+    ]
+  }
+]

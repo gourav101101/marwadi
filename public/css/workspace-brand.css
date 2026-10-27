@@ -1,0 +1,21 @@
+/* Shared identity with the public website; preserve the imported workspace layout. */
+:root{--bg:#f7f4ed;--surface:#fffdf8;--ink:#252b2e;--muted:#6c706c;--green:#886723;--green-dark:#694e17;--green-soft:#f2ead7;--border:#e1dac9}
+:root[data-theme="dark"]{--bg:#11171a;--surface:#1b2428;--ink:#f2eee4;--muted:#c0baac;--border:#3d423f;--green:#d5b268;--green-dark:#ecd194;--green-soft:#383224}
+.welcome-story{background:radial-gradient(ellipse at left bottom,#5c4927,transparent 70%),linear-gradient(135deg,#11191c,#252b2e)!important}
+.welcome-story .eyebrow,.welcome-story h1 em{color:#e2c37f}.welcome-story p,.welcome-copyright{color:#e5dfd2}
+.story-graphic svg stop{stop-color:#c9a858}.story-graphic svg path[stroke]{stroke:#e4cb8b}.graphic-label{color:#e4cb8b}
+.btn.primary{background:#d5b268!important;color:#161d20!important;border-color:#d5b268!important}.btn.primary:hover{background:#e6c98b!important;border-color:#e6c98b!important}
+.payment-icon,.workspace-icon{background:#f2ead7!important;color:#886723!important}
+.sidebar nav>.nav-item.active,.sidebar nav>.nav-item:hover{background:#f2ead7;color:#6c501b;box-shadow:inset 3px 0 #ad852e}
+.workspace-select,.advisor-card{background:#f8f4e9;border-color:#e1dac9}.advisor-symbol{color:#886723}.stat-card.featured{background:linear-gradient(125deg,#172024,#50432a)!important}
+.category-button.active,.tabs button.active{background:#f2ead7;color:#6c501b;border-color:#c3a367}
+.text-link,.login-password-toggle{color:#886723}.welcome-form h2{color:var(--ink)}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:#b08b3c;box-shadow:0 0 0 3px #b08b3c20}
+:focus-visible{outline-color:#b08b3c}::selection{background:#e8d4a1;color:#171d20}
+html[data-theme="dark"] .topbar{background:#1b2428f2}
+html[data-theme="dark"] :is(.workspace-select,.advisor-card,.form-tabs,thead,.coming-card){background:#252c2e;border-color:#3d423f}
+html[data-theme="dark"] :is(.text-link,.document-list>a,.coming-card h2,.form-section-title,.login-password-toggle){color:#e2c37f}
+html[data-theme="dark"] :is(.sidebar nav>.nav-item.active,.sidebar nav>.nav-item:hover,.category-button.active,.tabs button.active,.workspace-icon,.payment-icon){background:#383224!important;color:#ecd194!important;border-color:#705d32;box-shadow:inset 3px 0 #b08b3c}
+html[data-theme="dark"] :is(.field>input,.field>select,.field>textarea,select,.table-search input){background:#131c20;border-color:#55564c}
+html[data-theme="dark"] .payment-icon{background:#383224!important;color:#ecd194!important}
+html[data-theme="dark"] .sidebar nav>.nav-item em{background:#4b3c22;color:#f0d99e}

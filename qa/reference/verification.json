@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "Project-owned hero footage, artwork and live market strip",
+    "Account modal, integrated workspace login and removal of partner signup",
+    "Original service accordion interactions",
+    "PMS tab interactions",
+    "Original mobile navigation and five responsive widths"
+  ],
+  "checkedPages": 16,
+  "javascriptErrors": [],
+  "failedAssets": []
+}

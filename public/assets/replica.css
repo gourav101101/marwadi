@@ -1,0 +1,180 @@
+/* Original styles are kept in /reference-assets. Only integration/accessibility fixes live here. */
+.wow{visibility:visible!important}
+.replica-consent{display:flex!important;align-items:flex-start;gap:8px;font:12px/1.5 Roboto,Arial,sans-serif;margin:14px 0 8px!important;color:#555}
+.replica-consent input{width:14px!important;height:14px!important;margin:2px 0 0!important;flex-shrink:0}
+.replica-form-note{display:block;font:11px/1.5 Roboto,Arial,sans-serif;color:#777;margin:5px 0}
+.replica-status{position:fixed;left:50%;top:25%;transform:translateX(-50%);z-index:11000;background:#fff;color:#222;box-shadow:0 10px 60px #0005;border-top:5px solid #182024;padding:25px;max-width:480px;width:calc(100% - 32px);font:16px/1.7 Roboto,Arial,sans-serif}
+.replica-status button{float:right;margin:12px 0 0}
+.replica-market-error{font:13px Roboto,Arial,sans-serif;padding:6px}
+.hed_market_info{overflow:hidden;display:flex;align-items:center;width:100%;max-width:100%}.hed_market_info .nifty_info{flex:0 0 300px;width:300px}.hed_market_info #market-ticker{min-width:0;flex:1;display:block!important;overflow:hidden;width:0}
+.nifty_view_carousel.owl-carousel{display:block;transform:none!important}
+.nifty_view_carousel>.item{display:none;transform:none!important}
+.nifty_view_carousel>.item.is-index-active{display:block}
+.nifty_view_carousel .nifty_view{min-height:24px;line-height:24px}
+.nifty_view_carousel .nifty_view h3{font-size:18px}
+@media(max-width:767px){.hed_market_info{display:block}.hed_market_info .nifty_info{width:100%;border-right:0}.hed_market_info #market-ticker{width:100%;height:24px}}
+.replica-market-track{display:inline-flex;white-space:nowrap;animation:replica-ticker 75s linear infinite;will-change:transform}
+.replica-market-track:hover{animation-play-state:paused}
+.market_info.is-paused .replica-market-track{animation-play-state:paused}
+.hed_market_info #ticker-toggle{flex:0 0 30px;width:30px;min-width:30px;margin-right:0;margin-left:10px}
+#ticker-toggle svg{display:block;width:14px;height:14px;fill:currentColor;flex-shrink:0}
+@media(max-width:767px){.hed_market_info{position:relative}.hed_market_info #market-ticker{width:calc(100% - 40px)}.hed_market_info #ticker-toggle{position:absolute;right:0;bottom:0;margin:0}}
+.replica-market-track>div{display:inline-flex;align-items:center;flex-shrink:0}
+.market_info .replica-market-track span{flex-shrink:0}
+.replica-index-row{display:flex;align-items:center;justify-content:center;gap:7px;white-space:nowrap}
+.nifty_view.replica-index-row>p,.nifty_view.replica-index-row>h3,.nifty_view.replica-index-row>span{display:inline-block;margin:0}
+.replica-notice{overflow:hidden;width:100%;max-width:100%;display:block!important}.replica-notice>div{display:inline-flex;white-space:nowrap;animation:replica-ticker 70s linear infinite}.replica-notice p{margin-right:50px;flex-shrink:0;white-space:nowrap}
+.click_info_main,.click_info_view_one{overflow:hidden;min-width:0}
+.source-graphic-unavailable{display:flex;align-items:center;justify-content:center;flex-direction:column;background:#f7f4ed;border:1px solid #faf8f2;color:#182024;max-width:100%;text-align:center;padding:25px}
+.source-graphic-unavailable>span{font-size:48px;margin-bottom:20px}.source-graphic-unavailable>p{font-size:18px;font-weight:600}.source-graphic-unavailable>small{font-size:12px;color:#777}
+.block_online_trading_btn_pay{right:0!important;transform:none!important;writing-mode:vertical-rl;padding:12px 8px!important;margin-right:0!important;min-width:0!important;width:40px!important;line-height:24px!important}
+@media(max-width:1199px){body[data-reference-page="/renaissance"] .content-section{margin-left:0;min-width:0;max-width:100%}}
+@media(max-width:600px){body[data-reference-page="/renaissance"] .heading{font-size:30px!important;line-height:1.3!important;display:inline-block;max-width:100%}}
+@keyframes replica-ticker{to{transform:translateX(-50%)}}
+a:focus-visible,button:focus-visible{outline:2px solid #f9a02b!important;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.replica-market-track,.replica-notice>div{animation:none}}
+/* Original project-owned visual system. */
+.home_banner.brand-hero{position:relative;isolation:isolate;overflow:hidden;min-height:520px;height:auto!important;background:#f7f4ed}
+.brand-hero-video{position:absolute;top:0;right:0;bottom:0;left:auto;width:min(62%,960px);height:100%;object-fit:cover;object-position:right center;mask-image:linear-gradient(90deg,transparent,#000 25%);-webkit-mask-image:linear-gradient(90deg,transparent,#000 25%);z-index:-2}
+.brand-hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(240,249,255,.9),rgba(240,249,255,.45) 42%,transparent 65%);z-index:-1}
+.brand-hero-inner{display:flex;align-items:center;min-height:520px;padding-top:45px;padding-bottom:55px}
+.brand-hero-copy{max-width:565px}
+.brand-eyebrow{font:600 11px/1.6 Roboto,Arial,sans-serif;color:#182024;letter-spacing:2px;display:block;margin-bottom:20px}
+.brand-hero h1{font-family:Roboto,Arial,sans-serif;font-size:49px;line-height:1.16;font-weight:700;letter-spacing:-1.7px;color:#182024;margin:0 0 22px;text-transform:none}
+.brand-hero-copy>p{font:400 17px/1.8 Roboto,Arial,sans-serif;color:#182024;max-width:405px;margin-bottom:28px}
+.brand-hero-actions{display:flex;align-items:center;gap:30px}.brand-hero-actions>.main_btn{min-width:190px;display:inline-flex;align-items:center;justify-content:space-between;gap:25px}.brand-hero-actions>a{font:500 14px Roboto,Arial,sans-serif;color:#182024}.brand-hero-actions>a>span{margin-left:12px}
+.brand-hero-tags{display:flex;gap:18px;flex-wrap:wrap;margin-top:30px;font:400 11px Roboto,Arial,sans-serif;color:#8a6926}.brand-hero-tags>span+span:before{content:'·';margin-right:18px;color:#8a6926}
+.brand-motion-toggle{position:absolute;bottom:15px;right:25px;border:1px solid #a3926a;background:#ffffffdc;color:#182024;font:400 10px Roboto,Arial,sans-serif;border-radius:20px;padding:7px 13px;z-index:2}
+.brand-about-art{border-radius:14px;max-height:420px;object-fit:cover;width:100%}
+.navbar-brand img{width:190px;max-height:55px}.footer_logo>a>img{max-width:210px;max-height:64px}
+.service_icon img{width:64px;height:64px;object-fit:contain}.office_icon img{width:38px}.social_media img{max-width:18px}
+.res_about_img{border-radius:14px}.strategy_img{max-width:180px!important;max-height:180px!important}
+.brand-document-panel{padding:25px 15px;background:#f7f4ed;border:1px solid #faf8f2;text-align:center;margin:20px auto;max-width:760px;min-width:0}.brand-document-panel>img{width:56px;margin:0 auto 15px}.brand-document-panel h3{font-size:23px;color:#182024}.brand-document-panel p{font-size:14px;color:#8a6926}.brand-document-panel .main_btn{min-width:0;max-width:100%;white-space:normal;line-height:1.5;padding:10px 12px}
+.source-graphic-unavailable{background-image:url('/assets/brand/section-pattern.svg');background-size:cover}
+.new_sub_banner_title{background-size:cover!important;background-position:center!important}
+.footer_sec{background-color:#182024}.testimonial{background-color:transparent}
+@media(max-width:1199px){.brand-hero h1{font-size:43px}.brand-hero-copy{max-width:480px}.brand-hero-inner,.home_banner.brand-hero{min-height:490px}}
+@media(max-width:767px){.home_banner.brand-hero{min-height:0}.brand-hero-video{left:0;width:100%;height:230px;object-fit:cover;object-position:right top;mask-image:none;-webkit-mask-image:none}.brand-hero-shade{background:linear-gradient(0deg,#f7f4ed 55%,transparent 75%)}.brand-hero-inner{min-height:0;padding-top:250px;padding-bottom:50px}.brand-hero-copy{max-width:none}.brand-hero h1{font-size:36px;letter-spacing:-1px}.brand-eyebrow{font-size:9px;margin-bottom:14px;letter-spacing:1.6px}.brand-hero-copy>p{font-size:14px;line-height:1.8;max-width:340px;margin-bottom:24px}.brand-hero-actions{gap:22px}.brand-hero-actions>.main_btn{min-width:170px}.brand-hero-tags{font-size:9px;gap:9px;margin-top:25px}.brand-hero-tags>span+span:before{margin-right:9px}.brand-motion-toggle{top:190px;bottom:auto;right:15px}.navbar-brand img{width:175px}.brand-about-art{max-height:350px}}
+/* Balanced hero composition: display the complete illustration in its native ratio. */
+.home_banner.brand-hero{min-height:clamp(540px,38vw,660px);background:radial-gradient(ellipse at 80% 45%,#f7f4ed,transparent 65%),linear-gradient(110deg,#f7f4ed,#f7f4ed)}
+.brand-hero-inner{position:relative;z-index:1;max-width:1360px;width:calc(100% - 96px);min-height:clamp(540px,38vw,660px);padding-top:60px;padding-bottom:70px;pointer-events:none}
+.brand-hero-copy{width:43%;max-width:565px;pointer-events:auto}
+.brand-hero h1{font-size:clamp(40px,3vw,54px)}
+.brand-hero-video{top:50%;right:clamp(28px,5vw,96px);bottom:auto;left:auto;transform:translateY(-50%);width:min(48vw,900px);height:auto;aspect-ratio:1672/940;object-fit:contain;object-position:center;mask-image:none;-webkit-mask-image:none;border-radius:24px;border:1px solid #ffffffb3;box-shadow:0 20px 60px #18202412;z-index:0}
+.brand-hero-shade{display:none}
+.brand-motion-toggle{right:clamp(36px,6vw,116px);bottom:32px}
+@media(max-width:1100px) and (min-width:768px){.brand-hero-copy{width:46%}.brand-hero-inner{width:calc(100% - 64px)}.brand-hero h1{font-size:36px}.brand-hero-video{width:45vw;right:24px}.brand-hero-copy>p{font-size:15px}.brand-hero-tags{gap:10px;font-size:10px}.brand-hero-tags>span+span:before{margin-right:10px}}
+@media(max-width:767px){.home_banner.brand-hero{display:flex;flex-direction:column;min-height:0;padding:24px 20px 40px}.brand-hero-inner{order:0;display:block;width:100%;min-height:0;padding:12px 0 30px}.brand-hero-copy{width:100%;max-width:none}.brand-hero h1{font-size:clamp(32px,7.8vw,42px)}.brand-hero-video{order:1;position:relative;inset:auto;transform:none;display:block;width:100%;height:auto;max-width:600px;align-self:center;object-fit:contain;border-radius:16px}.brand-motion-toggle{top:auto;right:32px;bottom:50px}.brand-hero-tags{margin-top:22px}.brand-hero-actions{gap:22px}}
+@media(max-width:767px){.block_online_trading_btn_pay{display:none!important}}
+/* Marwadi Finance broker: deep teal, ivory and copper. */
+:root{--brand-primary:#182024;--brand-deep:#182024;--brand-copper:#a86744;--brand-ink:#182024;--brand-ivory:#f7f4ed;--brand-sage:#faf8f2;--brand-border:#e8e0ce}
+body{background:#fcfaf6;color:var(--brand-ink)}
+.hed_sce_one{background:var(--brand-deep)!important;border-bottom:1px solid #ffffff1a}
+.hed_sce_one .corporate_link>ul>li>a,.hed_sce_one #dropdownMenuLink{color:#fffaf0!important}
+.hed_sce_one .main_btn_border{color:#fffaf0!important;border-color:#ffffff70!important;background:transparent!important;border-radius:4px}
+.hed_sce_one .main_btn_border:hover{background:#ffffff18!important}
+.corporate_link_drop{border-color:var(--brand-border)!important}.hed_sce_one .corporate_link_drop a{color:var(--brand-ink)!important}
+.topnav,.top_menu{background:#fffdf8!important}.topnav.nav-scroll{box-shadow:0 5px 22px #18202410}
+.nav-menu>li>a{color:var(--brand-ink)!important}.nav-menu>li:hover>a,.nav-dropdown>li>a:hover{color:var(--brand-copper)!important}
+.hed_market_line{background:var(--brand-sage)!important}.nifty_info{border-right-color:#a3926a!important}
+.main_btn{background:var(--brand-primary);border-color:var(--brand-primary);color:#fffaf0;border-radius:5px}
+.main_btn:hover,.main_btn:focus{background:var(--brand-deep);border-color:var(--brand-deep);color:#fff}
+.main_btn_border{background:transparent;color:var(--brand-primary)}
+.home_banner.brand-hero{background:radial-gradient(ellipse at 80% 50%,#e8e0ce,transparent 65%),linear-gradient(115deg,#fbf8f0,#f0f1e6)}
+.brand-hero h1{color:var(--brand-deep)}.brand-eyebrow{color:#94603f}.brand-hero-copy>p{color:#8a6926}
+.brand-hero-actions>a{color:var(--brand-primary)}.brand-hero-tags{color:#8a6926}.brand-hero-tags>span+span:before{color:var(--brand-copper)}
+.brand-hero-video{border-color:#fdf9ed;box-shadow:0 22px 65px #18202417}
+.click_info_main{background:var(--brand-primary)!important}.click_info_main p,.click_info_main a{color:#fffaf0!important}
+.title_web h2,.our_all_info h2,.platform_info h2,.contact_info_dtl h2{color:var(--brand-deep)}
+.title_web:after,.title_web h2:after{background:var(--brand-copper)}
+.service_blog_home{background:#fffdf8!important;border:1px solid var(--brand-border);border-radius:12px;box-shadow:0 5px 20px #18202407;transition:transform .2s,box-shadow .2s}
+.service_blog_home:hover{transform:translateY(-4px);box-shadow:0 12px 30px #18202415;border-color:#a3926a}
+.service_blog_home .service_icon>span{background:#faf8f2!important}.service_blog_home h4{color:var(--brand-ink)}
+.invest_made{background:#eee9de!important}.invest_made h2{color:var(--brand-deep)}
+.countdown_main{background:linear-gradient(120deg,#182024,#182024)!important}.countdown_main h2,.countdown_main h5,.countdown_main .counter-value{color:#fffaf0!important}
+.testimonial_main{background-color:var(--brand-primary)}.testimonial{background-color:transparent}.testimonial .title_web h2{color:#fffaf0}
+.investors_line{background:var(--brand-deep)!important}.investors_line_title{background:var(--brand-copper)!important}
+.footer_sec{background-color:#182024!important;background-image:linear-gradient(145deg,#182024,#182024)!important}.footer_sec p,.footer_sec li a{color:#e8e0ce}.footer_sec .footer-heading,.footer_sec .link_title{color:#fbf6e9}
+.footer_sec .copyright,.copyright{background:#182024!important;color:#e8e0ce}.msfl{border-top-color:#8a6926!important}
+.popup_card_title{background:var(--brand-primary)!important;color:white}.accordion-button:not(.collapsed){background:#faf8f2;color:var(--brand-deep)}
+.contact_blog,.brand-document-panel,.source-graphic-unavailable{background-color:#f3f3e9;border-color:var(--brand-border)}
+.block_online_trading_btn_pay{background:var(--brand-copper)!important;color:#fffaf0!important}
+input:focus,textarea:focus,select:focus{border-color:var(--brand-primary)!important;box-shadow:0 0 0 2px #18202418!important}
+a:focus-visible,button:focus-visible{outline-color:var(--brand-copper)!important}
+/* Final identity: supplied black-and-gold bull logo, charcoal, gold and ivory. */
+:root{--brand-primary:#182024;--brand-deep:#182024;--brand-copper:#997326;--brand-ink:#182024;--brand-ivory:#faf8f2;--brand-sage:#f1ece0;--brand-border:#e1d9c7}
+body{background:#fcfaf5;color:#303332}
+.hed_sce_one{background:#182024!important;border-bottom:2px solid #bd953d}
+.topnav,.top_menu{background:#fff!important}.nav-menu>li>a{color:#182024!important}
+.nav-menu>li:hover>a,.nav-dropdown>li>a:hover{color:#8b6724!important}
+.navbar-brand img{width:155px;height:100px;max-height:100px;object-fit:contain}.nav_bar_ctm{min-height:110px;padding-top:5px;padding-bottom:5px}
+.footer_logo>a{display:inline-block;background:white;border-radius:10px;padding:8px 12px}.footer_logo>a>img{width:200px;height:auto;max-height:135px;object-fit:contain}
+.hed_market_line{background:#f2ede1!important}.nifty_info{border-right-color:#c6bca6!important}
+.home_banner.brand-hero{background:radial-gradient(ellipse at 80% 50%,#eae2ce,transparent 65%),linear-gradient(115deg,#fffdf8,#f3eee1)}
+.brand-hero h1{color:#182024}.brand-eyebrow{color:#8b6724}.brand-hero-copy>p{color:#62645e}.brand-hero-tags{color:#6d6b60}.brand-hero-actions>a{color:#282c2d}
+.brand-hero-video{border-color:#fffdf7;box-shadow:0 22px 65px #58462418}
+.main_btn{background:#182024;border-color:#182024;color:#fffdf6}.main_btn:hover,.main_btn:focus{background:#182024;border-color:#b68d35;color:#f4d995}
+.brand-hero-actions>.main_btn{border-bottom:3px solid #c49b42}
+.title_web h2,.our_all_info h2,.contact_info_dtl h2,.invest_made h2{color:#182024}.title_web:after,.title_web h2:after{background:#b68d35}
+.service_blog_home{background:#fffefa!important;border-color:#e3dccb}.service_blog_home:hover{border-color:#c5a76a;box-shadow:0 12px 30px #76613b13}.service_blog_home .service_icon>span{background:#f2ead9!important}
+.invest_made{background:#eee7d7!important}.countdown_main{background:linear-gradient(115deg,#182024,#343631)!important}
+.testimonial_main{background-color:#182024}.investors_line{background:#182024!important}.investors_line_title{background:#977329!important}
+.footer_sec{background:#182024!important;background-image:linear-gradient(145deg,#182024,#182024)!important}.footer_sec p,.footer_sec li a{color:#d2cfc5}.footer_sec .footer-heading,.footer_sec .link_title{color:#f0d99e}
+.footer_sec .copyright,.copyright{background:#182024!important;color:#cbc5b7}.msfl{border-top-color:#4d4b40!important}
+.popup_card_title{background:#182024!important}.accordion-button:not(.collapsed){background:#f1eadb;color:#182024}.contact_blog,.brand-document-panel,.source-graphic-unavailable{background-color:#f7f2e7;border-color:#e1d8c5}
+.click_info_main{background:#182024!important}.block_online_trading_btn_pay{background:#b38a35!important;color:#182024!important}
+.market_info span i.fa-angle-up{background:#008f4a!important}.market_info span i.fa-angle-down{background:#d71d36!important}.nifty_view span:not(.down){color:#008f4a}.nifty_view span.down{color:#d71d36}
+@media(max-width:767px){.navbar-brand img{width:135px;height:88px;max-height:88px}.nav_bar_ctm{min-height:98px}}
+.home_banner,.sub_banner{margin-top:110px!important}
+.testimonial_main{background-color:#202529!important;background-image:radial-gradient(ellipse at right,#4a402a,transparent 75%)!important}
+@media(max-width:767px){.home_banner,.sub_banner{margin-top:98px!important}}
+.hed_sce_one #website-login-link{display:inline-block;color:#fffaf0!important;border:1px solid #ffffff70;border-radius:4px;padding:4px 15px;line-height:1.6;font-size:13px}
+.hed_sce_one #website-login-link:hover{background:#ffffff18}
+.hed_sce_one .corporate_link{display:flex;justify-content:flex-end;align-items:center}
+/* Client-owned footer: only supported local pages and configured social links. */
+.local-footer { padding-top: 52px; }
+.local-footer-top { display: grid; grid-template-columns: 1.2fr 0.8fr 1fr 1fr; gap: 36px; padding-bottom: 36px; }
+.local-footer h2 { color: #f1d58d; font: 600 17px/1.5 inherit; font-size: 17px; margin: 0 0 16px; }
+.local-footer-brand img { object-fit: contain; background: white; border-radius: 8px; margin-bottom: 20px; }
+.local-footer p, .local-footer address { color: #d4d7d7; font-size: 14px; line-height: 1.8; }
+.local-footer ul { list-style: none; margin: 0; padding: 0; }
+.local-footer nav li { margin-bottom: 12px; }
+.local-footer a { color: #eee; font-size: 14px; line-height: 1.6; }
+.local-footer a:hover { color: #f1d58d; text-decoration: underline; }
+.local-footer a:focus-visible { outline: 2px solid #f1d58d; outline-offset: 4px; }
+.local-footer-contact { display: grid; grid-template-columns: 1.3fr 1fr auto; gap: 28px; border-block: 1px solid #ffffff25; padding: 28px 0; }
+.local-footer-contact address { max-width: 420px; margin: 0; font-style: normal; }
+.local-footer-contact-links, .local-footer-account { display: flex; flex-direction: column; justify-content: center; gap: 12px; overflow-wrap: anywhere; }
+.local-footer-risk { padding-top: 22px; margin: 0; }
+.local-footer-copyright { color: #bcc1c2; font-size: 13px; padding: 20px 0 28px; }
+@media(max-width:991px) { .local-footer-top { grid-template-columns: repeat(2,minmax(0,1fr)); } .local-footer-contact { grid-template-columns: 1fr 1fr; } }
+@media(max-width:575px) { .local-footer-top, .local-footer-contact { grid-template-columns: minmax(0,1fr); gap: 28px; } .local-footer { padding-top: 32px; } }
+.local-footer-resources { display:grid; grid-template-columns:1.2fr 1fr; gap:40px; padding:28px 0; border-top:1px solid #ffffff25; }
+.local-footer-resources ul { display:flex; flex-wrap:wrap; gap:12px 24px; }
+.local-footer-resources p { margin:0 0 12px; font-size:12px; }
+.local-information { margin-top:110px; color:#243135; }
+.local-information-banner { background:#f7f2e7; padding:54px 0 44px; border-bottom:1px solid #e6ddc8; }
+.local-information-banner nav { font-size:13px; margin-bottom:20px; }
+.local-information a { color:#71521c; text-decoration:underline; text-underline-offset:3px; }
+.local-information h1 { font-size:clamp(30px,4vw,46px); font-weight:700; line-height:1.2; margin-bottom:18px; color:#172125; }
+.local-information-banner p { max-width:680px; font-size:17px; }
+.local-information-body { padding-top:42px; padding-bottom:56px; }
+.local-information-body > section { max-width:820px; margin-bottom:30px; }
+.local-information h2 { font-size:21px; font-weight:600; margin-bottom:12px; }
+.local-information p { line-height:1.85; }
+.local-information-help { background:#f7f2e7; border-left:3px solid #b18b39; padding:24px; margin-top:32px; }
+.local-information-help p { margin-bottom:6px; }
+.local-sitemap-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:32px; }
+.local-sitemap-grid ul { padding-left:20px; }
+.local-sitemap-grid li { margin-bottom:12px; }
+@media(max-width:767px) { .local-footer-resources,.local-sitemap-grid { grid-template-columns:1fr; gap:26px; } .local-information { margin-top:98px; } .local-information-banner { padding:34px 0; } }
+/* Keep the consent checkbox visible despite the imported custom-input reset. */
+.replica-consent input[type="checkbox"]{position:static!important;left:auto!important;opacity:1!important;visibility:visible!important;appearance:auto!important;transform:none!important;}
+.replica-consent input[type="checkbox"]{position:relative!important;z-index:2;pointer-events:auto!important;}.replica-consent::before,.replica-consent::after{display:none!important;}
+/* Align utility actions on one shared row at every breakpoint. */
+.hed_sce_one .corporate_link > ul { display:flex;align-items:center;justify-content:flex-end;gap:12px;list-style:none;margin:0!important;padding:8px 0!important; }
+.hed_sce_one .corporate_link > ul > li { display:flex;align-items:center;float:none!important;margin:0!important;padding:0!important;vertical-align:middle; }
+.hed_sce_one .login_btn,.hed_sce_one .hed_pop_up.web_btn_ac { display:flex;align-items:center;margin:0!important;padding:0!important; }
+.hed_sce_one #website-login-link,.hed_sce_one .web_btn_ac > button { display:inline-flex!important;align-items:center;justify-content:center;box-sizing:border-box;min-height:36px;height:36px;margin:0!important;padding:0 15px!important;font-size:13px!important;font-weight:600;line-height:1!important;vertical-align:middle; }
+@media(max-width:575px) { .hed_sce_one .corporate_link > ul { gap:10px; } }
+.hed_sce_one .login_btn{border:0!important;}

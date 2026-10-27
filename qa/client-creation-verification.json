@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "isolated": true,
+  "checks": [
+    "Add client button opens form",
+    "Invalid IFSC shows inline errors and preserves fields and upload",
+    "Save creates exactly one searchable client",
+    "Duplicate email and client ID rejected",
+    "Mobile form fits viewport",
+    "New client can log in with Client ID and view saved bank details"
+  ],
+  "javascriptErrors": []
+}
